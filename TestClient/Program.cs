@@ -15,6 +15,9 @@ namespace TestClient
 	{
 		static void Main(string[] args)
 		{
+
+            Console.WriteLine("PastTest");
+
 			Agregator agr = new NewAgregator();
 			agr.AggregatorLogger("debug", "Test message");
 
@@ -48,6 +51,8 @@ namespace TestClient
 				);
 			
 			Console.WriteLine(checkResponse.JsonValue);
+
+            
 
 			Console.WriteLine("All Ok.");
 			Console.ReadKey();

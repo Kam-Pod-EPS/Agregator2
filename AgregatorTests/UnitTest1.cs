@@ -16,6 +16,7 @@ namespace AgregatorTests
 		[TestMethod]
 		public void TestCheckResponseClass()
 		{
+            string value = "I like c#!";
 			bool status = true;
 			CheckResponse cr = new CheckResponse() { ErrorCode="Error", ErrorMessage="ErrMessage",Status = status  };
 
